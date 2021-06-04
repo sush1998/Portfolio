@@ -2,8 +2,48 @@
 
 :root
 {
-    --grey:#29333A;
-    --green:#D5F667;
+    --dark-grey:#29333A;
+    --green:#bff667;
     --white:#FFFFFF;
-    --grey:#D3CFC8;
+    --light-grey:#D3CFC8;
+    --black:#000000;
 }
+
+body
+{
+    font-family:Kanit ;
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--black);
+}
+
+.container-fluid
+{
+    background-color: var(--white);
+}
+
+.container-center
+{
+    background-color: var(--light-grey);
+    text-align: center;
+}
+
+.link
+{
+    font-family: Kanit;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+}
+
+.link-primary
+{
+    background-color: var(--green);
+    color: var(--black);
+}
+
+.link-secondary
+{
+    background-color: var(--dark-grey);
+    color: var(--white);
+}
+

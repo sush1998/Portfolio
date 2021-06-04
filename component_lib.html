@@ -22,9 +22,11 @@
    <hr>
 
    <h3>@header</h3>
-
-   <img src="images/undraw_Coding_re_iv62.svg"> 
-   <h2>this is heading h2 inside header </h2>
+   <div class="header container">
+    <img class="header-image" src="images/undraw_Coding_re_iv62.svg"> 
+    <h2 class="header-heading">this is heading h2 inside header </h2>
+   </div>
+   
 
    <hr>
 
@@ -43,27 +45,35 @@
 
    <h3>@containers</h3>
 
-   <h2>fluid continer</h2>
-   <p>This is going to be a fluid container. It will go full width of page. With some margin.</p>
-   <h2>center container</h2>
-   <p>This is going to be a center container. It will go till a given width and center content.</p>
+  
+   <div class="container-fluid">
+        <h2>fluid continer</h2>
+        <p>This is going to be a fluid container. It will go full width of page. With some margin.</p>
+   </div>
+   
+  
+   <div class="container-center">
+        <h2>center container</h2>
+        <p>This is going to be a center container. It will go till a given width and center content.</p>
+   </div>
+   
 
    <hr>
 
    <h3>@links</h3>
 
-   <button>Primary link</button>
-   <button>Secondary link</button>
+   <button class="link link-primary">Primary link</button>
+   <button class="link link-secondary">Secondary link</button>
 
    <hr>
 
    <h3>@lists</h3>
 
    <h2>Ordered list</h2>
-   <ol>
-       <li>list item 1</li>
-       <li>list item 2</li>
-       <li>list item 3</li>
+   <ol class="list ordered-list">
+       <li class="list-item">list item 1</li>
+       <li class="list-item">list item 2</li>
+       <li class="list-item">list item 3</li>
    </ol>
 
    <h2>Unordered list</h2>
