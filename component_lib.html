@@ -22,7 +22,7 @@
    <hr>
 
    <h3>@header</h3>
-   <div class="header container">
+   <div class=" header container-center">
     <img class="header-image" src="images/undraw_Coding_re_iv62.svg"> 
     <h2 class="header-heading">this is heading h2 inside header </h2>
    </div>
@@ -31,16 +31,16 @@
    <hr>
 
    <h3>@nav</h3>
-
-   <p>Navigation is used on the top of the page and used to get to different pages</p>
-   <h2>page title</h2>
-   <ul>
-       <li>menu item</li>
-       <li>menu item</li>
-       <li>menu item</li>
-       <li>menu item</li>
-   </ul>
-
+   <div class="nav container-fluid">
+       <div class="nav-heading">page title</div>
+       <ul class="nav-menu list-unordered">
+            <li class="list-item">menu item</li>
+            <li class="list-item">menu item</li>
+            <li class="list-item">menu item</li>
+            <li class="list-item">menu item</li>
+       </ul>
+   </div>
+   
    <hr>
 
    <h3>@containers</h3>
@@ -70,17 +70,17 @@
    <h3>@lists</h3>
 
    <h2>Ordered list</h2>
-   <ol class="list ordered-list">
+   <ol class="list list-ordered">
        <li class="list-item">list item 1</li>
        <li class="list-item">list item 2</li>
        <li class="list-item">list item 3</li>
    </ol>
 
    <h2>Unordered list</h2>
-   <ul>
-    <li>list item 1</li>
-    <li>list item 2</li>
-    <li>list item 3</li>
+   <ul class="list list-unordered">
+        <li class="list-item">list item 1</li>
+        <li class="list-item">list item 2</li>
+        <li class="list-item">list item 3</li>
    </ul>
    <h2>Reverse ordered list</h2>
    <ol reversed>
@@ -94,18 +94,32 @@
    <h3>@section</h3>
 
    <h2>normal section</h2>
-   <p>Text defining this section and many more things</p>
-   <button>Primary button</button>
+   <div class="section">
+        <p>Cascading Stylesheets — or CSS — is the first technology you should start learning after HTML. While HTML is used to define the structure and semantics of your content, CSS is used to style it and lay it out. For example, you can use CSS to alter the font, color, size, and spacing of your content, split it into multiple columns, or add animations and other decorative features.</p>
+        <button class="link link-primary">Primary button</button>
+        <button class="link link-secondary">Primary button</button>
+   </div>
+   
+
+
    <h2>offwhite section</h2>
-   <p>Text defining this section and many more things</p>
-   <button>Primary button</button>
+   <div class="section section-grey">
+        <p>Cascading Stylesheets — or CSS — is the first technology you should start learning after HTML. While HTML is used to define the structure and semantics of your content, CSS is used to style it and lay it out. For example, you can use CSS to alter the font, color, size, and spacing of your content, split it into multiple columns, or add animations and other decorative features.</p>
+        <button class="link link-primary">Primary button</button>
+        <button class="link link-secondary">Primary button</button>
+   </div>
    <hr>
 
    <h3>@footer</h3>
 
-   <footer>
-       <h3>big text inside footer</h3>
-       <p>list inside</p>
+   <footer class="footer">
+       <div class="footer-text">big text inside footer</div>
+       <ul class="social-links list-unordered">
+            <li class="list-item">list item 1</li>
+            <li class="list-item">list item 2</li>
+            <li class="list-item">list item 3</li>
+        </ul>
+       
    </footer>
 </body>
 </html>

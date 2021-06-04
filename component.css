@@ -15,6 +15,8 @@ body
     font-size: 1rem;
     font-weight: 500;
     color: var(--black);
+    margin: 0;
+   
 }
 
 .container-fluid
@@ -24,7 +26,6 @@ body
 
 .container-center
 {
-    background-color: var(--light-grey);
     text-align: center;
 }
 
@@ -47,3 +48,82 @@ body
     color: var(--white);
 }
 
+.list-ordered
+{
+    list-style: none;
+}
+
+.list-unordered>.list-item
+{
+    display: inline;
+    padding: 0rem 1rem;
+}
+
+.section
+{
+    width: 60vw;
+    margin: auto;
+    text-align: center;
+    padding: 1rem 0rem;
+}
+
+.section-grey
+{
+    background-color: var(--light-grey);
+}
+
+
+.footer
+{
+    background-color: var(--dark-grey);
+    color: var(--white);
+    text-align: center;
+    padding: 2rem 1rem 1.5rem 1rem;
+}
+
+.footer>.footer-text
+{
+    display: block;
+    font-size: xx-large;
+}
+
+.footer>.social-links
+{
+    padding: 0;
+}
+
+
+.header
+{
+    padding: 2rem;
+    padding-top: 5rem;
+    display: block;
+
+}
+
+.header-image
+{
+    max-width: 80%;
+    width: 350px;
+    margin: auto;
+    
+}
+
+.header-heading
+{
+    color: var(--dark-grey);
+}
+
+
+.nav
+{
+    background-color: var(--dark-grey);
+    color: var(--light-grey);
+    padding: 1rem;
+}
+
+
+.nav>.nav-menu
+{
+    text-align: right   ;
+}
