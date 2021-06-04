@@ -126,7 +126,7 @@ body
 .nav
 {
     background-color: var(--dark-grey);
-    color: var(--light-grey);
+    color: var(--white);
     padding: 1rem;
     z-index: 1;
 }
@@ -135,4 +135,10 @@ body
 .nav>.nav-menu
 {
     text-align: right   ;
+}
+
+.nav-heading
+{
+    font-size: xx-large;
+    font-weight: 500;
 }
