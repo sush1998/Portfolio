@@ -35,18 +35,21 @@ body
 .link
 {
     font-family: Kanit;
-    border-radius: 0.5rem;
+    text-decoration: none;
     font-size: 1rem;
+    color:var(--white)
 }
 
 .link-primary
 {
+    border-radius: 0.5rem;
     background-color: var(--green);
     color: var(--black);
 }
 
 .link-secondary
 {
+    border-radius: 0.5rem;
     background-color: var(--dark-grey);
     color: var(--white);
 }
@@ -92,8 +95,14 @@ body
 .footer>.social-links
 {
     padding: 0;
+    
 }
 
+footer>.direct-link
+{
+    color:var(--white);
+    text-decoration: none;
+}
 
 .header
 {
