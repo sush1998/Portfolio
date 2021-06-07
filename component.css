@@ -17,7 +17,7 @@ body
     font-weight: 300;
     color: var(--black);
     margin: 0;
-   overflow: auto;
+    overflow: auto;
 }
 
 .container-fluid
@@ -115,6 +115,7 @@ footer>.direct-link
     padding: 2rem;
     padding-top: 5rem;
     display: block;
+    position: relative;
     
 }
 
@@ -143,8 +144,11 @@ footer>.direct-link
     background-color: var(--dark-grey);
     color: var(--white);
     padding: 1rem;
-    z-index: 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
     border-radius: 0rem 0rem 2rem 2rem;
+    z-index: 1;
 }
 
 
