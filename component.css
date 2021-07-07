@@ -17,7 +17,7 @@ body
     font-weight: 300;
     color: var(--black);
     margin: 0;
-    overflow: hidden;
+    
 }
 
 .container-fluid
@@ -30,6 +30,7 @@ body
     text-align: center;
     max-width: 600px;
     margin: auto;
+    text-align: justify;
 }
 
 .link
