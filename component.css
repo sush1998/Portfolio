@@ -83,6 +83,10 @@ body
     background-color: var(--light-grey);
 }
 
+.blog
+{
+    font-size: 1rem;
+}
 
 .footer
 {
@@ -175,5 +179,5 @@ footer>.direct-link
 }
 
 hr{
-    padding: 1rem 0rem;
+    margin: 1rem 0rem;
 }
